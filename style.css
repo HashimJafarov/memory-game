@@ -80,3 +80,21 @@ body {
   color: #f0f0f0;
   border: 1px solid #f0f0f0;
 }
+@media only screen and (max-width: 1240px) {
+  #game {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 250px);
+  }
+}
+@media only screen and (max-width: 761px) {
+  #game {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+@media only screen and (max-width: 521px) {
+  #game {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 200px);
+  }
+}
