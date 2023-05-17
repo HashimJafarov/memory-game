@@ -61,7 +61,8 @@ body {
   width: 200px;
   margin: 0 auto;
   color: #fff;
-  font-size: 40px;
+  text-align: center;
+  font-size: 30px;
 }
 #btn {
   display: block;
@@ -81,18 +82,27 @@ body {
   border: 1px solid #f0f0f0;
 }
 @media only screen and (max-width: 1240px) {
+  #field {
+    height: 100%;
+  }
   #game {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 250px);
   }
 }
 @media only screen and (max-width: 761px) {
+  #field {
+    height: 100%;
+  }
   #game {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 200px);
   }
 }
 @media only screen and (max-width: 521px) {
+  #field {
+    height: 100%;
+  }
   #game {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 200px);
